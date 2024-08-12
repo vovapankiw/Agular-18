@@ -1,0 +1,27 @@
+:host {
+  display: block;
+}
+
+.app {
+  &__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block-end: 24px;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    &__wrraper {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      width: 30vw;
+    }
+  }
+
+}

@@ -1,0 +1,13 @@
+
+.item {
+  display: grid;
+  grid-template-columns: 20px 1fr 40px;
+
+  &__text {
+    margin: 0 0 0 16px;
+  }
+}
+
+.comleted {
+  text-decoration: line-through;
+}

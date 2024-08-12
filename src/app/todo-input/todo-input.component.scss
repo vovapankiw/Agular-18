@@ -1,0 +1,14 @@
+:host {
+  display: block;
+  width: 100%;
+}
+
+.add-todo {
+  display: flex;
+  gap: 24px;
+
+  &__form,
+  &__input {
+    width: 100%;
+  }
+}

@@ -1,0 +1,12 @@
+<div class="add-todo">
+  <form [formGroup]="form"  id="create-todo-form" class="add-todo__form">
+    <input type="text" formControlName="todoText" class="add-todo__input">
+  </form>
+  <button
+    type="submit" 
+    form="create-todo-form"
+    (click)="addTodo()"
+  >
+    Add
+  </button>
+</div>
